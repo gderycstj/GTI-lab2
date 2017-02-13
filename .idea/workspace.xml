@@ -11,25 +11,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/log350/example/example6/DrawingView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/log350/example/example6/DrawingView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/log350/example/example6/DrawingView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/log350/example/example6/DrawingView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/log350/example/example6/DrawingView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/log350/example/example6/DrawingView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/log350/example/example6/DrawingView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/log350/example/example6/DrawingView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/log350/example/example6/DrawingView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/log350/example/example6/DrawingView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/log350/example/example6/DrawingView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/log350/example/example6/DrawingView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/log350/example/example6/DrawingView.java" afterPath="$PROJECT_DIR$/app/src/main/java/log350/example/example6/DrawingView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="GTI-lab2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,18 +63,18 @@
       <file leaf-file-name="DrawingView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/log350/example/example6/DrawingView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="350" column="44" selection-start-line="350" selection-start-column="36" selection-end-line="350" selection-end-column="44" />
+            <state relative-caret-position="79">
+              <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
               <folding>
                 <element signature="e#1442#1453#0" expanded="true" />
                 <element signature="e#3153#3165#0" expanded="true" />
                 <element signature="e#5308#5317#0" expanded="true" />
                 <element signature="e#6526#6537#0" expanded="true" />
                 <element signature="e#7596#7607#0" expanded="true" />
-                <element signature="e#8933#16986#0" expanded="true" />
-                <element signature="e#12965#12976#0" expanded="true" />
-                <element signature="e#16416#16427#0" expanded="true" />
-                <element signature="e#16985#16986#0" expanded="true" />
+                <element signature="e#8933#17045#0" expanded="true" />
+                <element signature="e#13009#13020#0" expanded="true" />
+                <element signature="e#16475#16486#0" expanded="true" />
+                <element signature="e#17044#17045#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2032,7 +2020,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487016884645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="++">
+      <created>1487017607152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487017607152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2079,14 +2074,15 @@
     <MESSAGE value="meilleurs formes" />
     <MESSAGE value="bouton" />
     <MESSAGE value="bouton++" />
-    <option name="LAST_COMMIT_MESSAGE" value="bouton++" />
+    <MESSAGE value="++" />
+    <option name="LAST_COMMIT_MESSAGE" value="++" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/log350/example/example6/DrawingView.java</url>
-          <line>381</line>
+          <line>382</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -2113,10 +2109,10 @@
             <element signature="e#5308#5317#0" expanded="true" />
             <element signature="e#6526#6537#0" expanded="true" />
             <element signature="e#7596#7607#0" expanded="true" />
-            <element signature="e#8933#16986#0" expanded="true" />
-            <element signature="e#12965#12976#0" expanded="true" />
-            <element signature="e#16416#16427#0" expanded="true" />
-            <element signature="e#16985#16986#0" expanded="true" />
+            <element signature="e#8933#17045#0" expanded="true" />
+            <element signature="e#13009#13020#0" expanded="true" />
+            <element signature="e#16475#16486#0" expanded="true" />
+            <element signature="e#17044#17045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2131,18 +2127,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/log350/example/example6/DrawingView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="350" column="44" selection-start-line="350" selection-start-column="36" selection-end-line="350" selection-end-column="44" />
+        <state relative-caret-position="79">
+          <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
           <folding>
             <element signature="e#1442#1453#0" expanded="true" />
             <element signature="e#3153#3165#0" expanded="true" />
             <element signature="e#5308#5317#0" expanded="true" />
             <element signature="e#6526#6537#0" expanded="true" />
             <element signature="e#7596#7607#0" expanded="true" />
-            <element signature="e#8933#16986#0" expanded="true" />
-            <element signature="e#12965#12976#0" expanded="true" />
-            <element signature="e#16416#16427#0" expanded="true" />
-            <element signature="e#16985#16986#0" expanded="true" />
+            <element signature="e#8933#17045#0" expanded="true" />
+            <element signature="e#13009#13020#0" expanded="true" />
+            <element signature="e#16475#16486#0" expanded="true" />
+            <element signature="e#17044#17045#0" expanded="true" />
           </folding>
         </state>
       </provider>

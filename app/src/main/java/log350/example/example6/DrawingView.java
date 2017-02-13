@@ -379,12 +379,13 @@ public class DrawingView extends View {
 
 						break;
 						case MODE_CREATE :
+							Point2D p_pixels = new Point2D(x,y);
 							if (cursorContainer.getNumCursors() > 2)
 							{
 								ArrayList< Point2D > arrayList = new ArrayList< Point2D >();
 								for (int i = 0; i<cursorContainer.getNumCursors(); i++){
 									MyCursor c = cursorContainer.getCursorByIndex(i);
-									if(CreateButton.contains(p_pixels)){
+									if(!CreateButton.contains(c.getCurrentPosition())){
 										arrayList.add( c.getCurrentPosition() );
 									}
 								}
