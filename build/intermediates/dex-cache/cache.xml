@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4eb0eac94c880e054f922373aa0597b5b154d687">
+        <dex dex="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\pre-dexed\debug\instant-run_9a0c9215f525eb3216c414b89d44051cb41a2751.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5aa7a8e5540221a7787e147150d6eef0a46ca463">
+        <dex dex="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_23cf83b7ada54ba0184cc4c08f5e02abaecc12a9.jar" />
+    </item>
+
+</items>
