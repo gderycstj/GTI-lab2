@@ -384,13 +384,16 @@ public class DrawingView extends View {
 								ArrayList< Point2D > arrayList = new ArrayList< Point2D >();
 								for (int i = 0; i<cursorContainer.getNumCursors(); i++){
 									MyCursor c = cursorContainer.getCursorByIndex(i);
-
-									arrayList.add( c.getCurrentPosition() );
-
+									if(CreateButton.contains(p_pixels)){
+										arrayList.add( c.getCurrentPosition() );
+									}
 								}
 								arrayList = Point2DUtil.computeConvexHull(arrayList);
 								shapeContainer.addShape( arrayList );
 								arrayList.clear();
+								cursorContainer.removeCursorByIndex( cursorIndex );
+								if ( cursorContainer.getNumCursors() == 0 )
+									currentMode = MODE_NEUTRAL;
 							}
 							else if ( type == MotionEvent.ACTION_UP ) {
 								cursorContainer.removeCursorByIndex( cursorIndex );

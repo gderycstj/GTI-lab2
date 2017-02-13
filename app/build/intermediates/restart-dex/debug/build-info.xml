@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="7402855711437"
+    timestamp="8021597550068"
     token="4414720114340275075"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="204" />
+        duration="167" />
     <task
         name="instant-run-dex"
-        duration="438" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="49" />
+        duration="19" />
     <task
         name="verifier"
-        duration="10" />
+        duration="3" />
 
     <artifact
-        location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="7290347306117"
+        timestamp="8021597550068"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="7402855711437"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

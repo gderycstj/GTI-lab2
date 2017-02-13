@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b642ff6c8e51821eaf4de8b7e3ca4a257a965d8b">
+        sha1="371ecd9f652a528d98c8ea7ddb1cb212335a1577">
         <dex dex="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\pre-dexed\debug\instant-run_fe5849b6eea55e990e9d818c4c9d8c163b7812c5.jar" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ac7c26f4e2ab8d845d311c500d96b3bf3949709f">
+        sha1="41837ede7f5807af877c21d1570b8e55fa9f1868">
         <dex dex="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a89541bf988fdc3691c1cd6fa22c5ab5407e77a7.jar" />
     </item>
     <item

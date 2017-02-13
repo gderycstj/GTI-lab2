@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 13 15:03:07 EST 2017
+#Mon Feb 13 15:22:25 EST 2017
 1.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.file=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 2.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
