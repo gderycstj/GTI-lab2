@@ -179,6 +179,7 @@ public class DrawingView extends View {
 	static final int MODE_SHAPE_MANIPULATION = 2; // the user is translating/rotating/scaling a shape
 	static final int MODE_LASSO = 3; // the user is drawing a lasso to select shapes
 	static final int MODE_ERASE = 4; // Erase a form
+	static final int MODE_CREATE = 5; // create a form
 	int currentMode = MODE_NEUTRAL;
 
 	// This is only used when currentMode==MODE_SHAPE_MANIPULATION, otherwise it is equal to -1
@@ -186,7 +187,8 @@ public class DrawingView extends View {
 
 	MyButton lassoButton = new MyButton( "Lasso", 10, 70, 140, 140 );
 	MyButton eraseButton = new MyButton("Effacer",10,220, 140, 140);
-	
+	MyButton CreateButton = new MyButton("Créer",10,370, 140, 140);
+
 	OnTouchListener touchListener;
 	
 	public DrawingView(Context context) {
@@ -258,6 +260,7 @@ public class DrawingView extends View {
 
 		lassoButton.draw( gw, currentMode == MODE_LASSO );
 		eraseButton.draw(gw, currentMode == MODE_ERASE);
+		CreateButton.draw(gw, currentMode == MODE_CREATE);
 
 		if ( currentMode == MODE_LASSO ) {
 			MyCursor lassoCursor = cursorContainer.getCursorByType( MyCursor.TYPE_DRAGGING, 0 );
@@ -342,19 +345,6 @@ public class DrawingView extends View {
 							}
 						}
 					}
-					if (cursorContainer.getNumCursors() > 2)
-					{
-						ArrayList< Point2D > arrayList = new ArrayList< Point2D >();
-						for (int i = 0; i<cursorContainer.getNumCursors(); i++){
-							MyCursor c = cursorContainer.getCursorByIndex(i);
-
-							arrayList.add( c.getCurrentPosition() );
-
-						}
-						arrayList = Point2DUtil.computeConvexHull(arrayList);
-						shapeContainer.addShape( arrayList );
-						arrayList.clear();
-					}
 					switch ( currentMode ) {
 					case MODE_NEUTRAL :
 						if ( cursorContainer.getNumCursors() == 1 && type == MotionEvent.ACTION_DOWN ) {
@@ -385,6 +375,21 @@ public class DrawingView extends View {
 							}
 
 						break;
+						case MODE_CREATE :
+							if (cursorContainer.getNumCursors() > 2)
+							{
+								ArrayList< Point2D > arrayList = new ArrayList< Point2D >();
+								for (int i = 0; i<cursorContainer.getNumCursors(); i++){
+									MyCursor c = cursorContainer.getCursorByIndex(i);
+
+									arrayList.add( c.getCurrentPosition() );
+
+								}
+								arrayList = Point2DUtil.computeConvexHull(arrayList);
+								shapeContainer.addShape( arrayList );
+								arrayList.clear();
+							}
+							break;
 					case MODE_CAMERA_MANIPULATION :
 						if ( cursorContainer.getNumCursors() == 2 && type == MotionEvent.ACTION_MOVE ) {
 							MyCursor cursor0 = cursorContainer.getCursorByIndex( 0 );
