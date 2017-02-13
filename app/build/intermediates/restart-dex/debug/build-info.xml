@@ -5,8 +5,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="8512495315365"
-    token="4414720114340275075" >
+    timestamp="8670637977065"
+    token="4414720114340275075"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -21,34 +22,16 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
     <build
-        timestamp="8021597550068"
+        timestamp="8670637977065"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="8257894948116"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\builds\debug\8257894948116\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="8431217757285"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\builds\debug\8431217757285\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="8446497818077"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\builds\debug\8446497818077\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="8512495315365" />
 
 </instant-run>
