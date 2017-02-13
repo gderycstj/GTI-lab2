@@ -354,6 +354,9 @@ public class DrawingView extends View {
 							if ( lassoButton.contains(p_pixels) ) {
 								currentMode = MODE_LASSO;
 								cursor.setType( MyCursor.TYPE_BUTTON );
+							}else if ( CreateButton.contains(p_pixels) ) {
+								currentMode = MODE_CREATE;
+								cursor.setType( MyCursor.TYPE_BUTTON );
 							}
 							else if ( indexOfShapeBeingManipulated >= 0 ) {
 								currentMode = MODE_SHAPE_MANIPULATION;
@@ -388,6 +391,11 @@ public class DrawingView extends View {
 								arrayList = Point2DUtil.computeConvexHull(arrayList);
 								shapeContainer.addShape( arrayList );
 								arrayList.clear();
+							}
+							else if ( type == MotionEvent.ACTION_UP ) {
+								cursorContainer.removeCursorByIndex( cursorIndex );
+								if ( cursorContainer.getNumCursors() == 0 )
+									currentMode = MODE_NEUTRAL;
 							}
 							break;
 					case MODE_CAMERA_MANIPULATION :
