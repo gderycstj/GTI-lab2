@@ -351,7 +351,7 @@ public class DrawingView extends View {
 							arrayList.add( c.getCurrentPosition() );
 
 						}
-						//Point2DUtil.computeConvexHull(arrayList);
+						arrayList = Point2DUtil.computeConvexHull(arrayList);
 						shapeContainer.addShape( arrayList );
 						arrayList.clear();
 					}

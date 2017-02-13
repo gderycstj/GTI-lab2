@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Mon Feb 13 14:50:23 EST 2017
-1.base=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_
-1.file=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
-2.base=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_
+#Mon Feb 13 15:03:07 EST 2017
+1.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+2.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
 3.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
-2.file=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+2.file=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 count=4
 1.set=ANDROID_RESOURCE
-3.base=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
 0.set=ANDROID_RESOURCE
-0.base=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_
-3.file=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
-0.file=C\:\\Users\\Mandaniaina\\StudioProjects\\GTI-lab21\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+0.base=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+0.file=D\:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
