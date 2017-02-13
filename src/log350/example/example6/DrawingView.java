@@ -178,12 +178,14 @@ public class DrawingView extends View {
 	static final int MODE_CAMERA_MANIPULATION = 1; // the user is panning/zooming the camera
 	static final int MODE_SHAPE_MANIPULATION = 2; // the user is translating/rotating/scaling a shape
 	static final int MODE_LASSO = 3; // the user is drawing a lasso to select shapes
+	static final int MODE_ERASE = 4; // Erase a form
 	int currentMode = MODE_NEUTRAL;
 
 	// This is only used when currentMode==MODE_SHAPE_MANIPULATION, otherwise it is equal to -1
 	int indexOfShapeBeingManipulated = -1;
 
 	MyButton lassoButton = new MyButton( "Lasso", 10, 70, 140, 140 );
+	MyButton eraseButton = new MyButton("Effacer",10,220, 140, 140);
 	
 	OnTouchListener touchListener;
 	
@@ -255,6 +257,7 @@ public class DrawingView extends View {
 		gw.setCoordinateSystemToPixels();
 
 		lassoButton.draw( gw, currentMode == MODE_LASSO );
+		eraseButton.draw(gw, currentMode == MODE_ERASE);
 
 		if ( currentMode == MODE_LASSO ) {
 			MyCursor lassoCursor = cursorContainer.getCursorByType( MyCursor.TYPE_DRAGGING, 0 );
@@ -359,6 +362,16 @@ public class DrawingView extends View {
 								cursor.setType( MyCursor.TYPE_DRAGGING );
 							}
 						}
+						break;
+						case MODE_ERASE :
+							if ( cursorContainer.getNumCursors() == 2 && type == MotionEvent.ACTION_DOWN ) {
+							Point2D p_pixels = new Point2D(x,y);
+							Point2D p_world = gw.convertPixelsToWorldSpaceUnits( p_pixels );
+							indexOfShapeBeingManipulated = shapeContainer.indexOfShapeContainingGivenPoint( p_world );
+							shapeContainer.deleteShape(indexOfShapeBeingManipulated);
+
+							}
+
 						break;
 					case MODE_CAMERA_MANIPULATION :
 						if ( cursorContainer.getNumCursors() == 2 && type == MotionEvent.ACTION_MOVE ) {
