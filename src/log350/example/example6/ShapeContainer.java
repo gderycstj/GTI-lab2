@@ -36,5 +36,9 @@ class ShapeContainer {
 			rect.bound( s.getBoundingRectangle() );
 		return rect;
 	}
+
+	public void deleteShape(int index){
+		shapes.remove(index);
+	}
 }
 
