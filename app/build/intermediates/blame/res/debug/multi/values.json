@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Utilisateur\\Desktop\\ETS\\GTI350\\GTI-lab2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 102
                 },
                 "from": {
-                    "file": "D:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Utilisateur\\Desktop\\ETS\\GTI350\\GTI-lab2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 173
                 },
                 "from": {
-                    "file": "D:\\Manda\\Documents\\GitHub\\GTI-lab2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Utilisateur\\Desktop\\ETS\\GTI350\\GTI-lab2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

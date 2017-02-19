@@ -2,40 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="371ecd9f652a528d98c8ea7ddb1cb212335a1577">
-        <dex dex="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\pre-dexed\debug\instant-run_fe5849b6eea55e990e9d818c4c9d8c163b7812c5.jar" />
+        sha1="65baaddd4b0b2d67b80e49bd64db4097c5086eca">
+        <dex dex="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8f1d55d217e53d9378e70684bc456b0d030c23e0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4eb0eac94c880e054f922373aa0597b5b154d687">
-        <dex dex="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\pre-dexed\debug\instant-run_9a0c9215f525eb3216c414b89d44051cb41a2751.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="41837ede7f5807af877c21d1570b8e55fa9f1868">
-        <dex dex="D:\Manda\Documents\GitHub\GTI-lab2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a89541bf988fdc3691c1cd6fa22c5ab5407e77a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5aa7a8e5540221a7787e147150d6eef0a46ca463">
-        <dex dex="C:\Users\Mandaniaina\StudioProjects\GTI-lab21\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_23cf83b7ada54ba0184cc4c08f5e02abaecc12a9.jar" />
+        sha1="9aab07c23b7118d000a8501d85ba17de9788f8fa">
+        <dex dex="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fcd15e5a16805796b1528710678f9a3f01bef686\classes.dex" />
     </item>
 
 </items>

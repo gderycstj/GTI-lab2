@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="8670637977065"
-    token="4414720114340275075"
+    timestamp="877530958819692"
+    token="-9160707018686598006"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -23,14 +23,14 @@
         duration="0" />
 
     <artifact
-        location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="8670637977065"
+        timestamp="877530958819692"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Manda\Documents\GitHub\GTI-lab2\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Utilisateur\Desktop\ETS\GTI350\GTI-lab2\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
